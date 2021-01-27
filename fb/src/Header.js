@@ -10,6 +10,8 @@ import AddIcon from "@material-ui/icons/Add";
 import QuestionAnswerIcon from "@material-ui/icons/QuestionAnswer";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import PeopleIcon from "@material-ui/icons/People";
+
 
 //
 function Header() {
@@ -37,6 +39,9 @@ function Header() {
         </div>
         <div className="header__option">
           <StorefrontIcon fontSize="large" />
+        </div>
+        <div className="header__option">
+          <PeopleIcon fontSize="large" />
         </div>
       </div>
       <div className="header__right">
