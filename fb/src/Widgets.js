@@ -5,14 +5,14 @@ import "./Widgets.css";
 function Widgets() {
   return (
     <div className="widgets">
-       <div
+      <div
         className="fb-page"
-        data-href="https://www.facebook.com/buildprogrammers"
+        data-href="https://www.facebook.com/ozmostudio/"
         data-tabs="timeline"
         data-width="300px"
         data-height="1500px"
-        data-small-header="true"
-        data-adapt-container-width="false"
+        data-small-header="false"
+        data-adapt-container-width="true"
         data-hide-cover="false"
         data-show-facepile="true"
       >

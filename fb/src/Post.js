@@ -14,7 +14,7 @@ function Post({ profilePic, image, username, timestamp, message }) {
         <Avatar src={profilePic} className="post__avatar" />
         <div className="post__topInfo">
           <h3>{username}</h3>
-          <p>{timestamp}</p>
+          <p>{new Date(timestamp?.toDate()).toLocaleString()}</p>
         </div>
       </div>
       <div className="post__bottom">
@@ -25,8 +25,8 @@ function Post({ profilePic, image, username, timestamp, message }) {
       </div>
       <div className="post__options">
         <div className="post_option">
-            <ThumbUpIcon />
-            <p>Like</p>
+          <ThumbUpIcon />
+          <p>Like</p>
         </div>
         <div className="post_option">
           <ChatBubbleOutlineIcon />

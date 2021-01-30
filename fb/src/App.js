@@ -5,9 +5,15 @@ import Feed from "./Feed";
 import Widgets from "./Widgets";
 import Login from "./Login";
 import { useStateValue } from "./StateProvider";
+import { useEffect } from "react";
 //
 function App() {
   const [{ user }, dispatch] = useStateValue();
+  // useEffect(() => {
+    
+  //   console.clear();
+
+  // }, []);
 
   return (
     <div className="app">
